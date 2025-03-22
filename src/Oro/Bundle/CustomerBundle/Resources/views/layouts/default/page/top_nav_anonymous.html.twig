@@ -12,6 +12,7 @@
     {% import '@OroUI/layouts/renderIcon.html.twig' as renderIcon %}
     {% set attr = layout_attr_defaults(attr, {
         '~class': ' navigation-menu__button navigation-menu__inner text-nowrap no-decoration',
+        'aria-label': 'Login Button',
         'href': path(route_name)
     }) %}
 
@@ -42,6 +43,7 @@
     {% import '@OroUI/layouts/renderIcon.html.twig' as renderIcon %}
     {% set attr = layout_attr_defaults(attr, {
         '~class': ' navigation-menu__button navigation-menu__inner text-nowrap no-decoration',
+        'aria-label': 'Register Button',
         'href': path(route_name)
     }) %}
 
